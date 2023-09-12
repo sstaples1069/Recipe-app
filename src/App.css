@@ -13,6 +13,12 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+  font-family: 'Playful Display SC';
+  text-align: center;
+  font-size: 64px;
+}
+
 /* typography */
 
 html {
@@ -55,6 +61,13 @@ table {
 }
 
 /* Column Size for thead */
+thead :nth-child(n+1) {
+  width: 10%;
+}
+thead :nth-child(n+4) {
+  width: 30%;
+}
+thead :nth-child(n+6) {
+  width: 10%;
+}
 
-
-/* Column size for tbody */
